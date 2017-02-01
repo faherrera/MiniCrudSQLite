@@ -1,0 +1,77 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formulario datos personales"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#5b1336"
+        android:id="@+id/tv_Title"
+        android:layout_marginTop="10dp"
+        />
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:id="@+id/rl_relativeDatos">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID N°"
+
+            android:id="@+id/et_id"
+            />
+        <EditText
+            android:layout_below="@id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:id="@+id/et_nombre"/>
+        <EditText
+            android:layout_below="@id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefono"
+            android:id="@+id/et_telefono"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:id="@+id/btn_guardar"
+           />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:id="@+id/btn_buscar"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/btn_update"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Borrar"
+            android:id="@+id/btn_borrar"
+            />
+    </LinearLayout>
+</LinearLayout>
