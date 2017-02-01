@@ -2,7 +2,7 @@
 
 	- Aplicacion sencilla en la cual puedo guardar datos personales conectandome a una bd de datos interna mediante API de SQLite.
 	
-	- Simple Mobile app when I can connect with SQLite API and save personal data.  
+	- Simple Mobile app where I can connect with SQLite API and save personal data.  
 	
 ## Herramientas/Tools
 
